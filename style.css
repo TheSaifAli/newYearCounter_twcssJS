@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.counterContainer{
+    @apply flex justify-center items-center flex-col w-32 h-24  shadow-2xl rounded-md  overflow-hidden  lg:w-40 lg:h-32 lg:border-none lg:shadow-2xl lg:rounded-2xl 
+}
+.counter{
+    @apply w-full h-24 flex justify-center items-center text-2xl text-white lg:text-4xl lg:h-32
+}
+.counterTitle{
+    @apply bg-white w-full text-center py-1 text-sm font-semibold  
+}

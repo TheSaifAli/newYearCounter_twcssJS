@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/assets/index-e48dbd88.css">
+</head>
+<body class="bg-gradient-to-tl from-[#420f41] via-[#053637] to-[#1b0c04] h-screen bg-center bg-cover">
+    <h1 class="text-center text-xl pt-10 font-Poppins font-semibold text-white drop-shadow-md lg:text-3xl ">Countdown to New Year</h1>
+    <h2 class="text-center text-4xl text-white font-semibold pt-5 sm:pt-10 lg:pt-15 lg:text-6xl lg:font-bold">2024</h2>
+    <div class="flex flex-wrap justify-center items-center w-[95%] mx-auto gap-5 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] lg:gap-10 ">
+        <div class="counterContainer">
+            <div class="counter" id="daysEl"></div>
+            <span class="counterTitle">DAYS</span>
+        </div>
+        <div class="counterContainer">
+            <div class="counter" id="hoursEl"></div>
+            <span class="counterTitle">HOURS</span>
+        </div>
+        <div class="counterContainer">
+            <div class="counter" id="minuteEl"></div>
+            <span class="counterTitle">MINUTES</span>
+        </div>
+        <div class="counterContainer animate-bounce">
+            <div class="counter animate-bounce" id="secondEl"></div>
+            <span class="counterTitle">SECONDS</span>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
